@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color1:rgb(241, 225, 195);
+}
+
+.container-1{
+    background: linear-gradient(0deg, white 10%,rgb(110, 108, 108) 78%, rgb(144, 144, 144) 80%, white 90%);
+    display: flex;
+    margin: 0;
+    height: 1000px;
+    width: 100vw;
+    background-color: aquamarine;
+}
+
+.inner-cover {
+    
+    margin-top: 40px;
+    background-image: url(https://starwalk.space/gallery/images/what-is-space/1540x866.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    /*background: linear-gradient(0deg, rgb(1, 1, 1) 1%, rgb(59, 59, 90) 10%, rgba(34, 6, 6, 0.274) 45%, rgb(224, 184, 184) 60%, rgb(153, 153, 189) 80%, rgb(199, 223, 237) 95% );
+    */margin: 10px;
+    background-color:rgb(31, 57, 57);
+    border-radius: 20px;
+    padding: 5px;
+    height: 400px;
+    width: 80vw;
+    background-color: var(--color1);
+    display: flex;
+    justify-content:space-around;
+    box-shadow: 15px 10px 30px rgb(1, 1, 1);
+    border: solid 5px rgb(152, 16, 16)e;
+
+} 
+.coin { 
+    position: fixed;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://www.images-apmex.com/images/products/2022-niue-1-oz-silver-2-yu-gi-oh-game-flip-coin-25th-anniv-bu_244203_slab.jpg?v=20220218105501&width=900&height=900);
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: antiquewhite;
+    background-size: contain;
+    justify-self: center;
+    align-self: center;
+    z-index: 100;
+    transition: 4.33s;
+    overflow: hidden;
+    box-shadow: 0px 0px 30px rgb(255, 48, 48);
+}
+
+.coin, a { opacity: 0; transition: 0.2s;}
+.coin, a:hover {opacity: 1;}
+.coin:hover {
+    position: fixed;
+    border-radius: 300px;
+    height: 300px;
+    width: 500px;
+    background-image: url(https://www.images-apmex.com/images/products/2022-niue-1-oz-silver-2-yu-gi-oh-game-flip-coin-25th-anniv-bu_244203_slab.jpg?v=20220218105501&width=900&height=900);
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: antiquewhite;
+    background-size: contain;
+    justify-self: center;
+    align-self: center;
+    opacity: 1;
+    z-index: 100;
+    transition: 4s;
+    overflow: hidden;
+    box-shadow: 0px 0px 60px rgb(14, 233, 233);
+    border: rgb(255, 255, 255) solid 6px;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.square {
+    box-shadow: 0px 0px 20px rgb(181, 228, 255);
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e4175c3f-297e-48be-8d30-8480016829c7/d6dlsyg-52f89407-773a-464f-93d3-4648cc91f3fb.jpg/v1/fill/w_750,h_1050,q_75,strp/yugioh_card_back_v2_by_endergon_oscuro_d6dlsyg-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA1MCIsInBhdGgiOiJcL2ZcL2U0MTc1YzNmLTI5N2UtNDhiZS04ZDMwLTg0ODAwMTY4MjljN1wvZDZkbHN5Zy01MmY4OTQwNy03NzNhLTQ2NGYtOTNkMy00NjQ4Y2M5MWYzZmIuanBnIiwid2lkdGgiOiI8PTc1MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.UF6pW8-eAwswXF-um-bYsEjuAgAS5YNLyLB6ivt-NpY);
+    background-size: cover;
+    background-blend-mode: "";
+    width: 70px;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 2s ease;
+    margin: 1px;
+
+}
+.square:hover {
+    background-image: url(https://product-images.tcgplayer.com/177175.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    height: 300px;
+    width: 200px;
+    background-color: rgba(134, 132, 133, 0.831);
+    z-index: 100;
+}
+.square2 {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e4175c3f-297e-48be-8d30-8480016829c7/d6dlsyg-52f89407-773a-464f-93d3-4648cc91f3fb.jpg/v1/fill/w_750,h_1050,q_75,strp/yugioh_card_back_v2_by_endergon_oscuro_d6dlsyg-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA1MCIsInBhdGgiOiJcL2ZcL2U0MTc1YzNmLTI5N2UtNDhiZS04ZDMwLTg0ODAwMTY4MjljN1wvZDZkbHN5Zy01MmY4OTQwNy03NzNhLTQ2NGYtOTNkMy00NjQ4Y2M5MWYzZmIuanBnIiwid2lkdGgiOiI8PTc1MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.UF6pW8-eAwswXF-um-bYsEjuAgAS5YNLyLB6ivt-NpY);
+    background-size: cover;
+    align-self: flex-end;
+    bottom: 0;
+    width: 70px;
+    height: 90px;
+    background-color: rgb(74, 142, 119);
+    border-radius: 10px;
+    transition: 2s ease;
+    margin: 1px;
+}
+.square2:hover {
+    background-image: url(https://media.istockphoto.com/id/140472118/photo/middle-finger.jpg?s=612x612&w=0&k=20&c=PHWkY3qathm5pjKIIJ5G2fggGxln0puxrdYlD6ly3Nc=);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:"";
+    /*background: linear-gradient(rgb(88, 88, 35), pink);
+    */border-radius: 20px;
+    height: 300px;
+    z-index: 100;
+    box-shadow: inset 0px 0px 50px rgb(255, 255, 255);
+    width: 200px;
+    background-color: rgba(203, 203, 203, 0.831);
+}
+
+.square2:not(:hover) {
+    box-shadow: 0px 0px 20px rgb(232, 27, 27);
+    align-self: flex-end;
+    bottom: 0;
+    width: 70px;
+    height: 90px;
+    background-color: rgb(19, 45, 36);
+    border-radius: 10px;
+    transition: .3s ease;
+    margin: 1px;
+}
+
