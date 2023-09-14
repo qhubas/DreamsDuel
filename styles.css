@@ -17,7 +17,7 @@
 }
 
 .inner-cover {
-    
+max-width: 1400px;    
     margin-top: 40px;
     background-image: url(https://starwalk.space/gallery/images/what-is-space/1540x866.jpg);
     background-size: cover;
